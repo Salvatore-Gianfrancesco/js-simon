@@ -19,7 +19,7 @@ for (let i = 0; i < 5; i++) {
 
 const numList = [];
 const numGuessed = [];
-const interval = 3;
+const interval = 30;
 setTimeout(function () {
     toGuessEl.classList.add("d-none");
 
@@ -49,7 +49,7 @@ setTimeout(function () {
             }
         }
 
-    }, 1000);
+    }, 100);
 
 }, interval * 1000);
 
