@@ -4,7 +4,28 @@
     box-sizing: border-box;
 }
 
+:root {
+    --light: #f5f5f5;
+    --dark: #2e2e2e;
+}
+
 body {
-    background-color: #2e2e2e;
-    color: whitesmoke;
+    background-color: var(--dark);
+    color: var(--dark);
+}
+
+.to_guess {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+.num_to_guess {
+    height: 120px;
+    width: 120px;
+    background-color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
